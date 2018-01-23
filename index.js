@@ -19,7 +19,7 @@ function currentLine(katzDeli){
     return "The line is currently empty.";
   }
   for(var i = 0; i < katzDeli.length; i++){
-    message += i+1 +"." +katzDeli[i];
+    message += i+1 +". " +katzDeli[i];
   }
   return message;
 }
