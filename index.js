@@ -21,4 +21,5 @@ function currentLine(katzDeli){
   for(var i = 0; i < katzDeli.length; i++){
     message += i+1 +"." +katzDeli[i];
   }
+  return message;
 }
